@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.screen {
+  margin-left: 300px;
+  margin-top: 30px;
+  margin-right: 20px;
+  .title {
+    margin-bottom: 10px;
+  }
+}
+
+.load-error {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

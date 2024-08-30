@@ -1,0 +1,43 @@
+.sidebar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 250px;
+  padding: 20px 30px;
+
+  .side-bar-link {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin: 10px 0;
+    cursor: pointer;
+
+    .side-bar-link-icon-box {
+      margin-right: 30px;
+
+      .side-bar-link-icon {
+        font-size: 20px;
+      }
+    }
+
+    .side-bar-link-text-box {
+      .side-bar-link-text {
+        font-weight: bold;
+        font-size: 20px;
+      }
+    }
+
+    &:hover {
+      background-color: red;
+    }
+  }
+
+  .setting-signout-buttons {
+    position: absolute;
+    bottom: 30px;
+    bottom: 0;
+  }
+}

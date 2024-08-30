@@ -1,0 +1,42 @@
+.btn {
+  border-radius: 15px;
+  padding: 5px 20px;
+  font-size: 15px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+.title-with-add-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 30px;
+  .add-button {
+    @extend .btn;
+  }
+}
+.route-details {
+  .routes-details-title {
+  }
+  margin: 10px 30px;
+  .single-route-details {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin: 10px 0;
+    .single-route-detail-box {
+      .rote-info {
+        color: gray;
+      }
+      .route-bus-info {
+        color: gray;
+      }
+    }
+    .single-route-open-detail-box {
+      .check-route {
+        @extend .btn;
+      }
+    }
+  }
+}
